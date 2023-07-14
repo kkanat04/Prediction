@@ -1,0 +1,38 @@
+#cardSlider {
+  display: flex;
+  align-items: center;
+}
+
+.cardSlider__buttons {
+  display: flex;
+}
+
+.cardSlider__btn {
+  color: #6A6D7D;
+  font-size: 14px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cardSlide__circleOne {
+  background: #53F3C3;
+  box-shadow: 0px 0px 10px #53F3C3;
+}
+
+.cardSlide__circleTwo {
+  background: #C6CAD9;
+}
+
+.cardSlider__active {
+  color: #15151B;
+  background: #EBEEF8;
+  border-radius: 10px;
+}
+
+.cardSlider__arrows {
+  display: flex;
+}
+
+

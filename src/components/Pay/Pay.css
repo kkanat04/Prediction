@@ -1,0 +1,62 @@
+#pay {
+  padding: 20px 0 115px;
+}
+
+#pay div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay__first {
+  padding: 0 10px 0 89px;
+}
+
+.pay__second {
+  padding: 0 0 0 29px;
+  margin: 30px 0 0 0;
+}
+#pay img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #pay img {
+   width: 200px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #pay img {
+    width: 150px;
+    height: 25px;
+  }
+  .pay__first {
+    padding: 0 10px 0 20px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #pay{
+    padding: 50px 0 0 0;
+  }
+  #pay img {
+    width: 120px;
+    height: 20px;
+    margin:0 0 30px 0;
+  }
+  #pay div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+
+  #pay div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

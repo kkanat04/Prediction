@@ -1,0 +1,45 @@
+#cardDisabled {
+  color: #6A6D7D;
+  opacity: 0.5;
+  width: 30%;
+}
+
+#cardDisabled .main__header {
+  background: #E0E3EF;
+}
+
+.cardDisabled__text {
+  font-size: 14px;
+}
+
+.cardDisabled__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDisabled__main img {
+  width: 140px;
+  height: 140px;
+}
+
+.cardDisabled__head_timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.cardDisabled__head_timer > p {
+  margin: 0 5px 0 5px !important;
+}
+
+.cardDisabled__head_timer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 31px;
+  background: #C6CAD9;
+  border-radius: 8px;
+}

@@ -1,0 +1,99 @@
+.winnerInfo{
+    border-radius: 16px;
+    padding: 14px;
+    margin:12px 0;
+    display: flex;
+    font-family: 'Gilroy-Bold-700',sans-serif;
+    color: #21232C;
+}
+
+.winnerInfo .winner__rest{
+    display: flex;
+    align-items: center;
+}
+
+.winnerInfo__star{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winnerInfo__star img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.winnerInfo__star p{
+    color: #4B0AF5;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.winnerInfo__name{
+    display: inline-flex;
+    align-items: center;
+}
+
+.winner__second-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.winner__second-img img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:5px;
+}
+
+
+
+.winnerInfo__name p{
+    padding:0 0 0 12px;
+    color: #4B0AF5;
+}
+
+.winnerInfo__net{
+    color: #53F3C3;
+}
+
+.winnerInfo__net,.winnerInfo__rounds{
+    font-family: 'Gilroy-500',sans-serif;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .winnerInfo__titles p{
+    font-size: 8px;
+  }
+  .winnerInfo__star {
+    width: 18px;
+    height: 40px;
+  }
+  .winnerInfo p{
+    font-size: 10px;
+  }
+
+  .winnerInfo__net{
+    font-size: 6px !important;
+    padding: 0 0 0 5px;
+  }
+  .winnerInfo{
+    display: flex;
+    align-items: center;
+  }
+  .winnerInfo__name p {
+    padding: 0px 0 0 6px
+  }
+  #winner__web {
+    display: block;
+  }
+}

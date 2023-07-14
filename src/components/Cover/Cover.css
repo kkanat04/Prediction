@@ -1,0 +1,23 @@
+#cover {
+  height: 100vh;
+  background-image: url('../../assets/images/toxicBg.png');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+}
+
+#cover__container{
+  height: 100%;
+}
+
+.cover__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+
+

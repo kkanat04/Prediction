@@ -1,0 +1,39 @@
+.letsPlayHead{
+    display: flex;
+}
+
+.letsPlayBtn:first-child {
+    display: flex;
+    align-items: center;
+    margin: 0 16px 0 0;
+}
+
+.letsPlayBtn:first-child div {
+    background: #5735FF;
+    backdrop-filter: blur(2.66667px);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 12px;
+}
+
+.letsPlayBtn p{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 576px){
+  .letsPlayBtn p {
+    font-size: 14px;
+  }
+  .letsPlayBtn:first-child div {
+    width: 23px;
+    height: 23px;
+  }
+  .letsPlayBtn:first-child {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+#history {
+  padding: 62px 0 32px;
+}
+
+.history__col {
+  margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 820px){
+  #history .col-4{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  #history .col-4{
+    width: 100%;
+  }
+}

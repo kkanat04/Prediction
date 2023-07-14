@@ -1,0 +1,48 @@
+#chart{
+    padding: 0 0 120px 0;
+}
+
+.chart__title{
+    margin:0 0 12px 0;
+}
+
+.chart__wrap{
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding:21px 21px 37px;
+}
+
+.chart__wrap-buttons{
+    background: #F4F7FF;
+    border-radius: 12px;
+    margin: 0 0 18px 0;
+    display: inline-flex;
+    padding: 5px;
+    justify-content: flex-start;
+}
+
+.chart__wrap-buttons div{
+    padding: 8px 16px;
+    color: #9A9EAE;
+    cursor: pointer;
+}
+
+.chart__active{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(163, 182, 204, 0.2);
+    border-radius: 8px;
+    font-size: 12px;
+    color: #15151B;
+}
+
+.chart__diagram img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 576px){
+  .chart__wrap-buttons div {
+    font-size: 12px;
+  }
+}

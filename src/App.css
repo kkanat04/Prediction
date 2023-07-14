@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+@font-face {
+  font-family: 'Gilroy-Bold-800';
+  src: url('./assets/fonts/Gilroy-Extrabold.eot');
+  src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+  url('./assets/fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+  url('./assets/fonts/Gilroy-Extrabold.woff') format('woff'),
+  url('./assets/fonts/Gilroy-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold-700';
+  src: url('./assets/fonts/Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+  url('./assets/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+  url('./assets/fonts/Gilroy-Bold.woff') format('woff'),
+  url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-600';
+  src: url('./assets/fonts/Gilroy-Semibold.eot');
+  src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+  url('./assets/fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Gilroy-Semibold.woff2') format('woff2'),
+  url('./assets/fonts/Gilroy-Semibold.woff') format('woff'),
+  url('./assets/fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-500';
+  src: url('./assets/fonts/Gilroy-Medium.eot');
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+  url('./assets/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+  url('./assets/fonts/Gilroy-Medium.woff') format('woff'),
+  url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-400';
+  src: url('./assets/fonts/Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+  url('./assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+  url('./assets/fonts/Gilroy-Regular.woff') format('woff'),
+  url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy-400', sans-serif;
+  color: #15151B;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #4C0CF5;
+}
+
+
+ul {
+  list-style: none;
+}
+
+img {
+  user-select: none;
+}
+
+.isDisable {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: #15151B;
+}
+
+button {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  padding: 15px 32px;
+  border-radius: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #5735FF;
+  background: #4B0AF5;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container-mini {
+  max-width: 60%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding: 0 15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+
+h2 {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+
+.reuse-text {
+  line-height: 30px;
+  width: 50%;
+  text-align: center;
+  color: #6A6D7D;
+  margin: 0 auto 52px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .letsPlayBtn:first-child,.cover__button {
+    width: 100%;
+    padding: 11px;
+  }
+
+  button {
+    padding: 11px 18px ;
+    font-size: 12px ;
+  }
+  h2{
+    font-size: 24px;
+  }
+  .reuse-text {
+    line-height: 30px;
+    width: 100%;
+    font-size: 14px;
+    margin: 0 auto 26px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  button {
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+  }
+  .cover__first {
+    margin: 0 0 30px 0;
+  }
+}

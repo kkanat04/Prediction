@@ -1,0 +1,13 @@
+.slide{
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+    display: none;
+    transition: opacity ease-in-out 0.4s;
+}
+
+
+.active-anim{
+    display: flex;
+}

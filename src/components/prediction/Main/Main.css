@@ -1,0 +1,99 @@
+main {
+  padding: 0 0 0 144px;
+  background: #E7E9EE;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.main__parent {
+  padding: 0 41px 0 32px;
+}
+
+.main__grow {
+  padding: 0 0 0 280px;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.main__main {
+  padding: 20px 24px 24px;
+  height: 208px;
+}
+
+.main__card {
+  background-color: #fff;
+  box-shadow: 0px 10px 100px rgba(41, 72, 152, 0.05);
+  border-radius: 24px;
+}
+
+.main__header div p {
+  margin: 0 0 0 10px;
+}
+
+.main__header div {
+  display: flex;
+  align-items: center;
+}
+
+.main__circle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0 6px 0 0;
+}
+
+.main__padding-container {
+  padding: 0 41px 0 32px;
+}
+
+.main__title {
+  font-size: 24px;
+}
+
+.main__text {
+  font-size: 14px;
+  color: #9A9EAE;
+}
+
+.main__shadow {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 100px rgba(41, 72, 152, 0.05);
+}
+
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0;
+  }
+
+  .main__parent {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .main__parent {
+    padding: 0 16px 100px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .main__parent {
+    padding: 0 16px 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__parent {
+    padding: 0 20px 130px;
+  }
+}
+
+

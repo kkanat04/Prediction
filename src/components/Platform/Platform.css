@@ -1,0 +1,47 @@
+#platform {
+  padding: 80px 0 174px;
+}
+
+.platform__box {
+  background: #15151B;
+  border-radius: 40px;
+  padding: 40px 0 46px;
+  text-align: center;
+}
+
+.platform__box img {
+  width: 107px;
+  height: 126px;
+}
+
+.platform__box p:nth-child(2) {
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.platform__box p:nth-child(3) {
+  font-size: 14px;
+  color: #9A9EAE;
+}
+
+@media screen and (max-width: 1024px) {
+  #platform .col-4 {
+    width: 100%;
+  }
+
+  #platform .col-4 .platform__box {
+    margin: 0 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .platform__box img {
+    width: 80px;
+    height: 100px;
+  }
+
+  .platform__box p:nth-child(2) {
+    font-size: 18px;
+  }
+}

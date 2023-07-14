@@ -1,0 +1,75 @@
+.oreo {
+  margin: 87px auto 0;
+  background-color: #E2FE53;
+  border-radius: 40px;
+  padding: 39px 60px;
+  width: 80%;
+  position: relative;
+}
+
+.oreo__wrap {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.oreo__bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.oreo__wrap-box > p:nth-child(1) {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  font-size: 32px;
+}
+
+.oreo__wrap-box > p:nth-child(2) {
+  /*font-family: 'Gilroy-400',sans-serif;*/
+  font-size: 16px;
+  line-height: 30px;
+  margin: 12px 0 24px;
+}
+
+.oreo__wrap-box {
+  width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+  .oreo__bg {
+    display: none;
+  }
+
+  .oreo__wrap {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .oreo .letsPlayHead {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .oreo {
+    margin: 87px auto 0;
+    padding: 39px 0;
+    width: 80%;
+  }
+  .oreo .letsPlayBtn:first-child {
+    display: flex;
+    align-items: center;
+    margin:0;
+  }
+  .oreo__wrap-box > p:nth-child(1) {
+    font-size: 20px;
+  }
+  .oreo__wrap-box > p:nth-child(2) {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 12px 0 12px;
+  }
+}

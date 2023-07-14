@@ -1,0 +1,163 @@
+.winnerCard {
+  position: relative;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.winnerCard__imageBox, .winnerCard__circle, .winnerCard__number, .winnerCard__number p {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.winnerCard__imageBox {
+  width: 145px;
+  height: 90px;
+  top: -14px;
+}
+
+.winnerCard__circle {
+  top: -6px;
+  width: 72px;
+  height: 72px;
+  border: 6px solid #FFFFFF;
+  border-radius: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.winnerCard__circle img {
+  position: absolute;
+  width: 100%;
+  top: 4px;
+}
+
+.winnerCard__grass {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+
+.winnerCard__number {
+  width: 38px;
+  height: 38px;
+  bottom: 5px;
+}
+
+.winnerCard__belt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.winnerCard__number p {
+  text-align: center;
+  top: 2px;
+}
+
+.winnerCard > p {
+  padding: 83px 0 12px 0;
+  text-align: center;
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  font-size: 16px;
+  color: #4B0AF5;
+}
+
+.winnerCard__details div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 13px 0;
+}
+
+.winnerCard__details div:last-child {
+  padding: 0;
+}
+
+.winnerCard__col {
+  margin: 0 0 50px 0;
+}
+
+.winnerCard__details {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+}
+
+.winnerCard__details-percentage {
+  font-family: 'Gilroy-500', sans-serif;
+  color: #21232C;
+}
+
+.winnerCard__details-net {
+  color: #53F3C3;
+}
+
+.winnerCard__details-won {
+  color: #21232C;
+}
+
+
+#winner__web {
+  display: none;
+}
+
+.winnerCard__alt{
+  display: none;
+  margin:0 0 18px 0;
+}
+
+.winnerCard__alt-circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin:0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.winnerCard__alt-circle img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:8px;
+}
+
+.winnerCard__star{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.winnerCard__star img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.winnerCard__star p{
+  position: absolute;
+}
+
+.winnerCard__alt-text{
+  color: #4B0AF5;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  #winner__web {
+    display: block;
+  }
+  #winner__web .winnerCard__alt{
+    display: flex;
+    align-items: center;
+  }
+  #winner__web .winnerCard__imageBox{
+    display: none;
+  }
+  #winner__web .winner__userId{
+    display: none;
+  }
+}

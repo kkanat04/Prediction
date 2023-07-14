@@ -1,0 +1,156 @@
+#timezone{
+  padding: 32px 36px;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.timezone__title{
+  font-size: 14px;
+  margin:0 0 16px 0;
+}
+
+#timezone .MuiFormControl-root{
+  margin:0 0 32px 0;
+}
+
+#timezone .MuiInputBase-root{
+  border: 1px solid #EBEEF8;
+  border-radius: 16px;
+}
+
+#timezone .MuiSelect-select,.timezone__switch{
+  font-family: 'Gilroy-500',sans-serif;
+  font-size: 14px;
+  color: #15151B;
+}
+
+.timezone__group{
+  display: flex;
+  margin:0 0 36px 0;
+}
+.timezone__switch{
+  border: 1px solid #EBEEF8;
+  border-radius: 16px;
+  padding:15px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timezone__switch div{
+  border: 2px solid #EBEEF8;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin:0 0 0 64px;
+}
+.timezone__group div:first-child{
+  margin:0 24px 0 0;
+}
+
+.timezone__switch.timezone__active{
+  border: 1px solid #5735FF;
+}
+
+.timezone__switch.timezone__active div{
+  border: 4px solid #5735FF;
+}
+
+.timezone__grow, .timezone__title-grow{
+  display: none;
+}
+
+@media screen and (max-width: 1024px){
+  .timezone__grow{
+    display: flex;
+  }
+
+  .timezone__title-grow{
+    display: block;
+  }
+
+  .timezone__grow .aside__day{
+    flex-direction: row;
+    margin:0 0 36px 0;
+  }
+}
+
+
+@media screen and (max-width: 576px){
+  #timezone {
+    padding: 24px;
+  }
+  .timezone__switch div{
+    margin:0 0 0 12px
+  }
+  #timezone .MuiFormControl-root {
+    min-width: 100% !important;
+  }
+  .timezone__switch {
+    margin:0;
+  }
+  .timezone__group {
+    justify-content: space-around;
+  }
+  .timezone__group div:first-child {
+    margin: 0;
+  }
+  .timezone__button{
+    width: 100%;
+  }
+  #timezone .MuiSelect-select, .timezone__switch {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  #timezone {
+    padding: 18px;
+  }
+  .timezone__switch div{
+    margin:0 0 0 12px
+  }
+  #timezone .MuiFormControl-root {
+    min-width: 100% !important;
+  }
+  .timezone__switch {
+    padding:10px;
+  }
+  .timezone__group {
+    justify-content: space-between;
+  }
+  .timezone__group div:first-child {
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 280px){
+
+  .timezone__grow{
+    width: 100%;
+  }
+
+  .timezone__grow .aside__day{
+    width: 100%;
+  }
+  .timezone__switch p{
+    font-size: 10px;
+  }
+  .aside__grow .aside__day div {
+    padding: 8px 15px 8px 11px;
+  }
+  .header__second-avatar {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+  }
+  .header__second-text {
+    padding: 0 8px;
+    font-size: 9px;
+  }
+  .headerSecond__end-info > div p {
+    font-size: 9px;
+  }
+}

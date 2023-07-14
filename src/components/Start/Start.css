@@ -1,0 +1,101 @@
+#start {
+  background-color: #4B0AF5;
+  background-image: url('../../assets/images/bloc.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  height: 404px;
+}
+
+#start .row{
+  height: 100%;
+}
+
+.start__box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.start__row {
+  position: relative;
+}
+
+.start__kanatik {
+  position: absolute;
+  top: -20%;
+  left: 0;
+}
+
+.start__box h3 {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.start__box p {
+  color: #FFFFFF;
+  margin: 24px 0;
+}
+
+.start__box-button button:nth-child(1) {
+  background: #E2FE53;
+  border: 1px solid #C1DF24;
+  color: #15151B;
+  margin: 0 16px 0 0;
+}
+
+.start__box-button button:nth-child(2) {
+  background: #5735FF;
+  border: 1px solid #694BFF;
+}
+
+
+@media screen and (max-width: 1300px) {
+  #start .col-6 {
+    width: 100%;
+  }
+
+  .start__kanatik {
+    position: unset;
+    width: 60%;
+
+  }
+
+  #start {
+    height: auto;
+    padding: 50px 0 100px;
+  }
+
+  .start__box {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .start__box-button button:nth-child(2) {
+    border: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .start__box h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .start__box p {
+    color: #FFFFFF;
+    margin: 12px 0;
+  }
+  .start__box-button button:nth-child(1) {
+    margin: 0 0 12px 0;
+  }
+  .start__box-button button {
+    width: 100%;
+  }
+}

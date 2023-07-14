@@ -1,0 +1,11 @@
+button {
+  font-family: 'Gilroy-Bold-700', sans-serif;
+  padding: 15px 32px;
+  border-radius: 32px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #5735FF;
+  background: #4B0AF5;
+  font-size: 16px;
+  z-index: 2;
+}
